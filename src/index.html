@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+  <title>Gamecore | обзор игр и приложений</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<main>
+
+  <header class="header">
+    <a class="logo" href="#">
+      <img data-src="img/content/logo.png" src="img/content/1x1.gif" alt="logotype">
+    </a>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" data-goto=".about" href="#">Услуги</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" data-goto=".app" href="#">Проекты</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" data-goto=".contact" href="#">Компания</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" data-goto=".footer" href="#">Контакты</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" data-goto=".review" href="#">Обучение</a>
+        </li>
+      </ul>
+      <div class="menu__wrap">
+        <div class="menu__li">
+          <div class="menu__subtitle">Телефон</div>
+          <a class="menu__text" href="tel:+74951008002">+7 495 100 80 02</a>
+        </div>
+        <div class="menu__li">
+          <div class="menu__subtitle">E-mail</div>
+          <a class="menu__text" href="mailto:go@app-publisher.ru">
+            go@app-publisher.ru
+          </a>
+        </div>
+        <a class="menu__btn" href="#">Оставить заявку</a>
+      </div>
+    </nav>
+    <div class="header__wrap">
+      <a class="header__link" href="#">Оставить заявку</a>
+      <nav class="nav">
+        <span class="nav__main">ru</span>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">English</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Deutsch</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Русский</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Italiano</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__burger-wrap">
+        <button class="header__burger" type="button">
+          <span class="header__burger--span">
+            <span class="sr-only">
+              дополнительное меню
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="blog">
+      <div class="container">
+        <div class="blog__top">
+          <div class="blog__wrap">
+            <h1 class="blog__main title">
+              Продвигаем и издаём
+              игры и приложения
+            </h1>
+            <div class="blog__item">
+              <p>
+                Тщательно анализируем результаты, грамотно поддерживаем в развитии и монетизизации вашего продукта
+              </p>
+            </div>
+            <div class="blog__inner">
+              <a class="blog__link popup-open" href="#">Узнать стоимость</a>
+              <div class="popup">
+                <div class="popup__wrap">
+                  <div class="popup__content">
+                    <svg class="popup-close">
+                      <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                    @include('components/_form.html',{
+                    'class' : 'form popup__wrapper',
+                    'check': 'check1'})
+                  </div>
+                </div>
+              </div>
+              @include('components/_popup-final.html')
+              <a class="blog__play" data-fancybox
+                href="https://www.youtube.com/watch?v=K0u_kAWLJOA&ab_channel=PlayStation">
+                <svg class="blog__svg" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="16.8447" cy="16.8294" r="16.5" />
+                  <path d="M12.9821 9.94443L25.5175 17.1817L12.9821 24.4191L12.9821 9.94443Z" fill="white" />
+                </svg>
+                <span>
+                  Смотреть промо
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="blog__img">
+            <img data-src="img/content/bg1.png" src="img/content/1x1.gif" alt="изображение ноутбука">
+          </div>
+        </div>
+        <div class="blog__bottom">
+          <div class="blog__image">
+            <img data-src="img/content/bg2.png" src="img/content/1x1.gif" alt="чем мы занимаемся">
+          </div>
+          <div class="blog__wrapper">
+            <h2 class="blog__title title">
+              Чем мы занимаемся?
+            </h2>
+            <div class="blog__text">
+              <p>
+                Apppublisher - это Digital-агентство и GameDev студия с уникальными разработками, основанная в 2010
+                году.
+              </p>
+              <p>
+                Наша команда ищет перспективные проекты по России, СНГ и всему миру, и оказывает помощь в их продвижении
+                и
+                локализации
+                для иностранных рынков.
+              </p>
+            </div>
+            <div class="blog__desc-inner">
+              <span class="blog__desc blog__desc--first">
+                40 000 000+ установок наших игр
+                и приложений по всему миру
+              </span>
+              <span class="blog__desc blog__desc--last">
+                10 лет успешного опыта
+                продвижения проектов
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="up">
+      </div>
+    </section>
+
+    <section class="app">
+      <div class="container">
+        <h2 class="app__title title">
+          Игры и приложения
+        </h2>
+        <span class="app__desc">
+          которые мы продвигали, издавали или разработали
+        </span>
+        <div class="swiper-container app-slider">
+          @include('components/_app-slide.html')
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title title">
+          Как мы работаем?
+        </h2>
+        <ul class="about__list">
+          <li class="about__item">
+            <div class="about__subtitle about__subtitle--first">
+              Аудит
+            </div>
+            <div class="about__text">
+              <p>
+                Анализируем вашу игру или приложение: тематику, конкурентов, UI/UX дизайн, показатели CPI, Retention и
+                принимаем решение
+                о продвижении
+              </p>
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__subtitle about__subtitle--two">
+              Трафик и установки
+            </div>
+            <div class="about__text">
+              <p>
+                Делаем предложение в формате взаимовыгодного сотрудничества - вы получаете установки и пользователей
+                своей игры или
+                приложения
+              </p>
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__subtitle about__subtitle--three">
+              Поддержка
+            </div>
+            <div class="about__text">
+              <p>
+                Индивидуальная работа с каждой командой или разработчиком, которые получают маркетинговую поддержку (в
+                том числе — и
+                экспертную), доступ к аналитике и сервисам
+              </p>
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__subtitle about__subtitle--last">
+              Экспертиза
+            </div>
+            <div class="about__text">
+              <p>
+                Услуги по ASO оптимизации любых приложений, аудиты текущего состояния продукта, маркетинговые тесты и
+                обеспечиваем
+                трафик игры или приложения
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container">
+        <h2 class="review__title title">
+          Делимся экспертизой
+        </h2>
+        <span class="review__desc">
+          рассказываем о продвижении мобильных игр и приложений
+        </span>
+        <div class="review__wrapper">
+          <div class="swiper-container review-slider">
+            <ul class="review-slider__list swiper-wrapper">
+              @loop('components/list/_review-slide.html', [
+              {'img': 'item',
+              'text': 'Разработка игры в одиночку: Hyper casual игры - Заработок на геймдев'},
+              {'img': 'item',
+              'text': 'Разработка игры в одиночку: Hyper casual игры - Заработок на геймдев'},
+              {'img': 'item',
+              'text': 'Разработка игры в одиночку: Hyper casual игры - Заработок на геймдев'},
+              {'img': 'item',
+              'text': 'Разработка игры в одиночку: Hyper casual игры - Заработок на геймдев'}
+              ])
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        @include('components/_form.html',{
+        'class' : 'contact__wrapper form',
+        'check2' : 'check2',})
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__map">
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeadf6810f751126a733410b902b80365b7c2420e6ce17daaed51da27b59a41c6&amp;width=100%25&amp;height=504&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      <div class="footer__wrap">
+        <div class="footer__box">
+          <h2 class="footer__title title">
+            Контакты
+          </h2>
+          <div class="footer__inner">
+            <address class="footer__list">
+              <div class="footer__item">
+                <div class="footer__subtitle">Телефон</div>
+                <a class="footer__text" href="tel:+74951008002">+7 495 100 80 02</a>
+              </div>
+              <div class="footer__item">
+                <div class="footer__subtitle">E-mail</div>
+                <a class="footer__text" href="mailto:go@app-publisher.ru">
+                  go@app-publisher.ru
+                </a>
+              </div>
+              <div class="footer__item">
+                <div class="footer__subtitle">Адрес</div>
+                <a class="footer__text" href="#">
+                  <span class="footer__text-item">г. Москва,</span>
+                  ул. Новый Арбат, 27а
+                </a>
+              </div>
+              <div class="footer__item">
+                <div class="footer__subtitle">Режим работы</div>
+                <div class="footer__items">
+                  <ul class="footer__days">
+                    <li>Пн - Пт</li>
+                    <li>Сб - Вс</li>
+                  </ul>
+                  <span class="footer__time">
+                    10:00 - 18:00
+                    выходной
+                  </span>
+                </div>
+              </div>
+            </address>
+            <ul class="icons">
+              <li class="icons__li">
+                <a class="icons__link icons__link--youtube" href="#">
+                  <div class="sr-only">youtube</div>
+                </a>
+              </li>
+              <li class="icons__li">
+                <a class="icons__link icons__link--inst" href="#">
+                  <span class="sr-only">instagram</span>
+                </a>
+              </li>
+              <li class="icons__li">
+                <a class="icons__link icons__link--twit" href="#">
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="icons__li">
+                <a class="icons__link icons__link--vk" href="#">
+                  <span class="sr-only">vkontak</span>
+                </a>
+              </li>
+              <li class="icons__li">
+                <a class="icons__link icons__link--facebook" href="#">
+                  <span class="sr-only">facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>APP-publisher, © 2021</span>
+      <span>Политика конфиденциальности</span>
+    </div>
+    <div class="menu-popup"></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  </body>
+
+</html>

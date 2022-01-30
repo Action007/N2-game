@@ -1,0 +1,53 @@
+@mixin max-460 {
+  @media (max-width: 460px) {
+    @content;
+  }
+}
+
+@mixin max-662 {
+  @media (max-width: 662px) {
+    @content;
+  }
+}
+
+@mixin max-860 {
+  @media (max-width: 860px) {
+    @content;
+  }
+}
+
+@mixin max-1100 {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
+
+@mixin max-1350 {
+  @media (max-width: 1350px) {
+    @content;
+  }
+}
+
+@mixin line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin line-clamp1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin font-face($font-family, $url, $weight) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: url("../fonts/#{$url}.woff2") format("woff2"), url("../fonts/#{$url}.woff") format("woff");
+    font-weight: #{$weight};
+    font-display: swap;
+    font-style: normal;
+  }
+}

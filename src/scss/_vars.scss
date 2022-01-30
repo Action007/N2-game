@@ -1,0 +1,14 @@
+$main: #7d8797;
+$title: #292930;
+$extra: #22215b;
+$white: #fff;
+$btn: #6453fe;
+$hover: #04d7cd;
+$minititle: #04035f;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
